@@ -1,15 +1,12 @@
 """
 Rule-based pain-point categorization and feature-request detection --
-the "Konzept zur automatisierten Kategorisierung und Priorisierung von
-Feedback" and "Extraktion von 'Pain Points' und Feature-Wünschen" tasks
-named directly in the posting.
+the automated categorization of feedback and the extraction of pain
+points and feature requests.
 
 Deliberately keyword/pattern-based (not a trained classifier) so the
 logic is fully inspectable and its precision/recall can be measured
 transparently against the hand-labeled ground truth in
-`ground_truth.py` -- the same "cheap, transparent baseline first"
-pattern used elsewhere in this portfolio
-(underwriting-llm-risk-extraction's rule-based extractor).
+`ground_truth.py` -- a "cheap, transparent baseline first" approach.
 """
 
 from __future__ import annotations

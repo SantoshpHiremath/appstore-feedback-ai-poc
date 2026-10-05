@@ -1,9 +1,8 @@
 """
 Hand-labeled ground truth for the synthetic reviews and tickets --
 required to measure extraction/categorization quality against manual
-analysis, exactly as the posting asks: "Bewertung der Qualität und
-Zuverlässigkeit der AI-generierten Insights im Vergleich zur manuellen
-Analyse."
+analysis, so the quality and reliability of AI-generated insights
+can be compared against manual analysis.
 
 Each item is labeled by hand with: is this a pain point, a feature
 request, or neither (pure praise/neutral) -- and if a pain point, which

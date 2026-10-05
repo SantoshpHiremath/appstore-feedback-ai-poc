@@ -4,12 +4,11 @@ Synthetic app-store review and customer-ticket generator.
 Models the shape of real app-store/customer-feedback data: short,
 informal, unstructured text with a star rating (reviews) or a subject
 line (tickets), covering a mix of genuine pain points, feature
-requests, and neutral/positive feedback -- exactly the two data sources
-named in the posting ("App-Store-Reviews und Kundentickets").
+requests, and neutral/positive feedback -- the two data sources of
+app-store reviews and customer tickets.
 
 All review and ticket text below is hand-written and fictional. This
-does not reflect any real BSH, Bosch, Siemens, Gaggenau, or Neff app,
-product, or customer.
+does not reflect any real app, product, or customer.
 """
 
 from __future__ import annotations

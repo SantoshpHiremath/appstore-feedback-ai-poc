@@ -1,9 +1,7 @@
 """
 Evaluates the automated pipeline's pain-point/feature-request output
-against the hand-labeled ground truth -- directly implementing the
-posting's own evaluation task: "Bewertung der Qualität und
-Zuverlässigkeit der AI-generierten Insights im Vergleich zur manuellen
-Analyse."
+against the hand-labeled ground truth -- comparing the quality and
+reliability of AI-generated insights against manual analysis.
 """
 
 from __future__ import annotations

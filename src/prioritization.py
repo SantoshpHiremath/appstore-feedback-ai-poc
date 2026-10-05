@@ -1,6 +1,6 @@
 """
-Priority scoring for detected pain points -- the "Priorisierung von
-Feedback" half of the posting's categorization/prioritization task.
+Priority scoring for detected pain points -- the prioritization half
+of the categorization/prioritization task.
 
 Combines frequency (how many items fall in a category) with severity
 signals (low star rating, negative sentiment) into a single priority

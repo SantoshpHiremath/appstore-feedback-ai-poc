@@ -1,7 +1,7 @@
 """
 Lightweight, rule-based sentiment scoring -- deliberately simple and
-fully inspectable, in the spirit of the posting's own task: "Evaluierung
-aktueller AI-Technologien (z. B. ... Sentiment-Analyse-Tools ...)".
+fully inspectable, as a baseline for evaluating
+sentiment-analysis approaches.
 
 No external sentiment library (e.g. VADER, TextBlob) was available in
 this sandbox with confirmed network access, so this implements a small,
